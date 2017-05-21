@@ -2,8 +2,7 @@
 
 int COtsuBinarizer::findThreshold( const cv::Mat& image )
 {
-    const int histSize = 256;
-    std::vector<int> hist( histSize, 0 );
+    std::vector<int> hist( 256, 0 );
 
     for( int i = 0; i < image.rows; ++i ) {
         for( int j = 0; j < image.cols; ++j ) {

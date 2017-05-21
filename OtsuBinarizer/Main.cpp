@@ -34,7 +34,6 @@ int main()
     }
 
     std::cout << totalTime / ( numPixels / 1'000'000) << std::endl;
-    system( "pause" );
 
     return EXIT_SUCCESS;
 }
